@@ -7,8 +7,8 @@ The original library (v2.2.2) is on sourceforge here: https://sourceforge.net/pr
 
 The following is noted:
 
-* The 2.2.2 version on source forge this will not work with supprted versions of PHP (7.0 or higher).
+* The 2.2.2 version on source forge will not work with supprted versions of PHP (7.0 or higher).
 * This repository is a clone with a set of fixes for the regular expression parsing to use **preg_match** instead of **ereg**.
-* Some fixes to the metar decode function have been added as **empty** as a function behaves differently in PHP 7.x
+* Some fixes to the metar decode function have been added as **empty()** (as a PHP function) behaves differently in PHP 7.x.
 * The code is Martin's but updated to work with later versions of PHP.
-* Some sample code is provided on an as-is basis in the **examples** folder
+* Some sample code is provided on an as-is basis in the **examples** folder.
